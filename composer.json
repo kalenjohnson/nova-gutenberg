@@ -20,7 +20,7 @@
     ],
     "require": {
         "cweagans/composer-patches": "*",
-        "laravel/nova": "^3.9",
+        "laravel/nova": "",
         "symfony/thanks": "^1.2",
         "unisharp/laravel-filemanager": "*",
         "van-ons/laraberg": "*"
