@@ -1,5 +1,5 @@
 {
-    "name": "genealabs/nova-gutenberg",
+    "name": "piterlautaro/nova-gutenberg",
     "description": "Implementation of the Gutenberg editor as a Laravel Nova Field based on Laraberg.",
     "keywords": [
         "laraberg",
