@@ -1,5 +1,6 @@
 {
     "name": "piterlautaro/nova-gutenberg",
+    "version": "0.5.1",
     "description": "Implementation of the Gutenberg editor as a Laravel Nova Field based on Laraberg.",
     "keywords": [
         "laraberg",
