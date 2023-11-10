@@ -33,6 +33,6 @@ class FieldServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom(base_path('vendor/van-ons/laraberg/src/Laraberg.php'), 'laraberg');
+        $this->mergeConfigFrom(base_path('vendor/van-ons/laraberg/config/laraberg.php'), 'laraberg');
     }
 }
