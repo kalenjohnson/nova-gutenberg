@@ -16,8 +16,8 @@ class FieldServiceProvider extends ServiceProvider
     public function boot()
     {
         Nova::serving(function (ServingNova $event) {
-            Nova::script("nova-gutenberg-react", "https://unpkg.com/react@16.8.6/umd/react.production.min.js");
-            Nova::script("nova-gutenberg-react-dom", "https://unpkg.com/react-dom@16.8.6/umd/react-dom.production.min.js");
+            Nova::script("nova-gutenberg-react", "https://unpkg.com/react@17.0.2/umd/react.production.min.js");
+            Nova::script("nova-gutenberg-react-dom", "https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js");
             Nova::script('nova-gutenberg', __DIR__ . '/../dist/js/field.js');
             Nova::script('nova-gutenberg-laraberg', __DIR__ . '/../dist/js/laraberg.js');
 
